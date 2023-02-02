@@ -1,0 +1,29 @@
+.sec-header {
+
+  &__header {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 3px red;
+    padding-left: 10px;
+    font-size: 23px;
+    margin-top: 20px;
+    transition: text-shadow 0.5s;
+    -webkit-transition: text-shadow 0.5s;
+    -moz-transition: text-shadow 0.5s;
+    -ms-transition: text-shadow 0.5s;
+    -o-transition: text-shadow 0.5s;
+}
+  
+  &__header:hover {
+    text-shadow: 2px 2px 3px green;
+    cursor: pointer;
+  }
+
+  &__paragraph {
+    padding: 20px 10px;
+    column-count: 3;
+    column-rule: 10px #f00 solid;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+}

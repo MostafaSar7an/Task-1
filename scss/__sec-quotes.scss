@@ -1,0 +1,24 @@
+.quotes {
+
+  &__quotes-content {
+    width: 70%;
+    border: 7px dashed red;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-top: 90px;
+    padding: 30px;
+    position: relative;
+    left: 50%;
+    top: 90px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    font-family: 'Pacifico', cursive;
+    font-weight: 200;
+  }
+}
